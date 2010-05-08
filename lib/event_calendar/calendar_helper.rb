@@ -48,12 +48,12 @@ module EventCalendar
       block ||= Proc.new {|d| nil}
  
       defaults = {
-        :year => Time.zone.now.year,
-        :month => Time.zone.now.month,
+        :year => Time.now.year,
+        :month => Time.now.month,
         :abbrev => true,
         :first_day_of_week => 0,
         :show_today => true,
-        :month_name_text => Time.zone.now.strftime("%B %Y"),
+        :month_name_text => Time.now.strftime("%B %Y"),
         :previous_month_text => nil,
         :next_month_text => nil,
         :event_strips => [],
