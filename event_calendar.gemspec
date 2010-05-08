@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = "event_calendar"
+  s.name = "elevation_event_calendar"
   s.version = "1.0.0"
 
   s.authors = ["elevation"]
